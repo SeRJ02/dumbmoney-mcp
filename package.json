@@ -1,0 +1,38 @@
+{
+  "name": "dumbmoney-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for DumbMoney.in — real-time verified coupons and hot deals for AI assistants",
+  "main": "dist/index.js",
+  "bin": {
+    "dumbmoney-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "coupons",
+    "deals",
+    "dumbmoney",
+    "ai",
+    "claude",
+    "llm"
+  ],
+  "author": "Akshat Somani",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
