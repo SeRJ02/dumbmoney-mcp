@@ -1,4 +1,4 @@
-# 🤑 DumbMoney MCP Server
+#  DumbMoney MCP Server
 
 > A [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server that gives AI assistants real-time access to verified coupon codes and hot deals from [DumbMoney.in](https://dumbmoney.in).
 
